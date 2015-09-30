@@ -6,6 +6,8 @@ html {
 	webkit-text-size-adjust:100%;
 	text-size-adjust:100%;
 	font-family: 'Oxygen', sans-serif;
+	font-weight: 300;
+	line-height: 28px;
 }
 
 
@@ -18,37 +20,44 @@ body{
 }
 
 nav{
-	background-color: #393939;
 	color: #fff;
-	padding: 1em;
+	padding: .5em;
 	margin: 0;
 }
 
 .masthead{
 	padding: 0;
+	background-color: #DBDBDB;
+}
+
+.masthead img{
+	width: 10%;
 }
 
 .masthead a{
-	background-color: #DBDBDB;
+	background-color: #33F0D6;
 	padding: .5em;
 	border-radius: 4px;
 	text-decoration: none;
 	color: #000;
+	display: inline-block;
+	float: right;
+	margin: .5em;
+	box-shadow: 1px 1px 5px #888;
 }
 
 h1{
-	font-size: 40px;
+	font-size: 45px;
 	line-height: 15px;
 }
 
 h2{
-	font-size: 40px;
+	font-size: 45px;
 	line-height: 15px;
 }
 
 .profile{
 	padding: 1em;
-	padding-bottom: 4em;
 }
 
 .profile img{
@@ -56,16 +65,19 @@ h2{
 }
 
 .profile a{
-	background-color: #DBDBDB;
+	background-color: #33F0D6;
 	padding: .5em;
 	border-radius: 4px;
 	text-decoration: none;
 	color: #000;
+	box-shadow: 1px 1px 5px #888;
 }
 
 h3{
 	font-size: 25px;
 	text-align: center;
+	color: #33F0D6;
+	text-shadow: 2px 2px 5px #000;
 }
 
 .about-me{
@@ -78,10 +90,19 @@ h3{
 	padding:1em;
 }
 
+.recent-work img{
+	width: 100%
+}
+
 footer{
 	background-color: #393939;
 	color: #fff;
 	padding:1em;
+}
+
+footer img{
+	width: 10%;
+	max-width: 10%;
 }
 
 @media only screen and (min-width: 20em ){
@@ -91,7 +112,7 @@ footer{
 	}
 
 	.masthead img{
-	width: 25%;
+	width: 20%;
 	color: #fff;
 }
 
@@ -99,5 +120,33 @@ footer{
 		width: 23%;
 	}
 
+}
+
+@media only screen and (min-width: 40em ){
+
+	html{
+		font-size: 110%;
+		line-height: 200%;
+	}
+
+	.masthead img{
+		width: 10%;
+	}
+
+	.profile img{
+		width: 50%;
+		display: inline-block;
+		float: left;
+	}
+
+	.about-me{
+		display: inline-block;
+		margin-top: 20px;
+	}
+
+	.recent-work img{
+	width: 40%;
+
+}
 
 }
