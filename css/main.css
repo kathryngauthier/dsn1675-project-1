@@ -136,7 +136,7 @@ footer img{
 	.profile img{
 		width: 50%;
 		display: inline-block;
-		float: left;
+		vertical-align: bottom;
 	}
 
 	.about-me{
@@ -144,8 +144,18 @@ footer img{
 		margin-top: 20px;
 	}
 
+	.recent-work{
+		text-align: center;
+	}
+
 	.recent-work img{
 	width: 40%;
+}
+
+ .profile-text{
+ 	display: inline-block;
+ 	vertical-align: bottom;
+ }
 
 }
 
