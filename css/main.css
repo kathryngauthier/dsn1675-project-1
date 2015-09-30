@@ -31,7 +31,7 @@ nav{
 }
 
 .masthead img{
-	width: 10%;
+	width: 4em;
 }
 
 .masthead a{
@@ -76,8 +76,8 @@ h2{
 h3{
 	font-size: 25px;
 	text-align: center;
-	color: #33F0D6;
-	text-shadow: 2px 2px 5px #000;
+	color: #000;
+	font-weight: 300;
 }
 
 .about-me{
@@ -112,7 +112,7 @@ footer img{
 	}
 
 	.masthead img{
-	width: 20%;
+	min-width: 20%;
 	color: #fff;
 }
 
@@ -139,6 +139,16 @@ footer img{
 		vertical-align: bottom;
 	}
 
+	 .profile-text{
+ 	display: inline-block;
+ 	vertical-align: bottom;
+ 	margin: .5em;
+ }
+
+ h3{
+ 	font-size: 30px;
+ }
+
 	.about-me{
 		display: inline-block;
 		margin-top: 20px;
@@ -150,12 +160,8 @@ footer img{
 
 	.recent-work img{
 	width: 40%;
+	margin: .5em;
 }
-
- .profile-text{
- 	display: inline-block;
- 	vertical-align: bottom;
- }
 
 }
 
