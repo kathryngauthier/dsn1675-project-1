@@ -107,14 +107,25 @@ footer{
 
 footer h3{
 	color: #33F0D6;
+	text-align: left;
+	font-size: 1.5em;
 }
 
 footer img{
 	width: 10%;
-	max-width: 10%;
+	max-width: 2.5em;
+}
+
+	hr{
+		width: 50%;
 }
 
 @media only screen and (min-width: 20em ){
+
+	html{
+		line-height: 1.25em;
+	}
+
 
 	.masthead img{
 		width: 44px;
@@ -133,13 +144,15 @@ footer img{
 		width: 23%;
 	}
 
+	hr{
+		width: 50%;
 }
 
 @media only screen and (min-width: 40em ){
 
 	html{
 		font-size: 110%;
-		line-height: 200%;
+		line-height: 1.375em;
 	}
 
 	.masthead img{
