@@ -26,7 +26,8 @@ nav{
 }
 
 	.masthead img{
-		width: 44px;
+		max-width: 50px;
+		margin:10px;
 	}
 
 .masthead{
@@ -113,11 +114,8 @@ footer h3{
 
 footer img{
 	width: 10%;
-	max-width: 2.5em;
-}
-
-	hr{
-		width: 50%;
+	max-width: 3em;
+	margin: 1em;
 }
 
 @media only screen and (min-width: 20em ){
@@ -125,7 +123,6 @@ footer img{
 	html{
 		line-height: 1.25em;
 	}
-
 
 	.masthead img{
 		width: 44px;
@@ -136,8 +133,6 @@ footer img{
 	}
 
 	.masthead img{
-	min-width: 20%;
-	color: #fff;
 }
 
 	footer img{
@@ -152,7 +147,7 @@ footer img{
 
 	html{
 		font-size: 110%;
-		line-height: 1.375em;
+		line-height: 2em;
 	}
 
 	.masthead img{
@@ -185,7 +180,7 @@ footer img{
 	}
 
 	.recent-work figure{
-		width: 35%;
+		width: 45%;
 		margin: .5em;
 		display: inline-block;
 }
