@@ -7,7 +7,6 @@ html {
 	text-size-adjust:100%;
 	font-family: 'Oxygen', sans-serif;
 	font-weight: 300;
-	line-height: 28px;
 }
 
 
@@ -26,7 +25,7 @@ nav{
 }
 
 	.masthead img{
-		max-width: 50px;
+		max-width: 60px;
 		margin:10px;
 	}
 
@@ -55,6 +54,10 @@ h1{
 h2{
 	font-size: 45px;
 	line-height: 15px;
+}
+
+p{
+	line-height: 1.8em;
 }
 
 .profile{
@@ -115,7 +118,6 @@ footer h3{
 footer img{
 	width: 10%;
 	max-width: 3em;
-	margin: 1em;
 }
 
 @media only screen and (min-width: 20em ){
@@ -133,6 +135,7 @@ footer img{
 	}
 
 	.masthead img{
+	width: 60px;
 }
 
 	footer img{
@@ -183,8 +186,6 @@ footer img{
 		width: 45%;
 		margin: .5em;
 		display: inline-block;
-}
-
 }
 
 }
