@@ -87,7 +87,12 @@ h3{
 
 .recent-work{
 	background-color: #F7F7F7;
+	padding:0;
+}
+
+.recent-work h3{
 	padding:1em;
+	margin: 0;
 }
 
 .recent-work img{
@@ -162,9 +167,10 @@ footer img{
 		text-align: center;
 	}
 
-	.recent-work img{
-	width: 40%;
-	margin: .5em;
+	.recent-work figure{
+		width: 35%;
+		margin: .5em;
+		display: inline-block;
 }
 
 }
