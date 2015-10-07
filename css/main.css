@@ -25,13 +25,13 @@ nav{
 	margin: 0;
 }
 
+	.masthead img{
+		width: 44px;
+	}
+
 .masthead{
 	padding: 0;
 	background-color: #DBDBDB;
-}
-
-.masthead img{
-	width: 4em;
 }
 
 .masthead a{
@@ -116,6 +116,10 @@ footer img{
 
 @media only screen and (min-width: 20em ){
 
+	.masthead img{
+		width: 44px;
+	}
+
 	.work img{
 		width: 100%;
 	}
@@ -139,7 +143,7 @@ footer img{
 	}
 
 	.masthead img{
-		width: 10%;
+		width: 44px;
 	}
 
 	.profile img{
