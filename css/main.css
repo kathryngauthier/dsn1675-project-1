@@ -37,7 +37,7 @@ nav{
 	padding: .5em;
 	border-radius: 4px;
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 	display: inline-block;
 	float: right;
 	margin: .5em;
@@ -71,7 +71,7 @@ p{
 	padding: .5em;
 	border-radius: 4px;
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 	box-shadow: 1px 1px 5px #888;
 }
 
@@ -94,14 +94,13 @@ h3{
 }
 
 .recent-work h3{
-	padding:1em;
+	padding: 1em;
 	margin: 0;
 }
 
 .recent-work img{
 	width: 100%;
 	position: relative;
-	float: center;
   width: 100%;
 }
 
@@ -109,11 +108,13 @@ h3{
 	padding: 0.4em 1em 0.5em;
 	position: absolute;
 	top: 15px;
-	left: 0;
 	background-color: #33F0D6;
-	box-shadow: 0 2px 6px rgba(0,0,0,0.75);
 	color: #fff;
 	text-decoration: none;
+}
+
+.recent-work a:hover{
+	background-color: #DBDBDB;
 }
 
 hr{
@@ -190,9 +191,15 @@ hr{
 	}
 
 	 .profile-text{
- 	display: inline-block;
- 	vertical-align: bottom;
- 	margin: .5em;
+ 		display: inline-block;
+ 		vertical-align: bottom;
+ 		margin: 1em;
+ 		padding-bottom: 20px
+ }
+
+ .about-me{
+ 	padding-left: 40px;
+ 	padding-right: 40px;
  }
 
  h3{
