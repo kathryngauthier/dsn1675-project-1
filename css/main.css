@@ -85,6 +85,7 @@ h3{
 .about-me{
 	background-color: #DBDBDB;
 	padding:1em;
+	position: relative;
 }
 
 .recent-work{
@@ -98,7 +99,21 @@ h3{
 }
 
 .recent-work img{
-	width: 100%
+	width: 100%;
+	position: relative;
+	float: center;
+  width: 100%;
+}
+
+.recent-work a{
+	padding: 0.4em 1em 0.5em;
+	position: absolute;
+	top: 15px;
+	left: 0;
+	background-color: #33F0D6;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.75);
+	color: #fff;
+	text-decoration: none;
 }
 
 hr{
@@ -114,7 +129,11 @@ footer{
 	background-color: #393939;
 	color: #fff;
 	padding: 1em;
+	text-align: center;
+}
 
+footer p{
+	line-height: 30%;
 }
 
 footer li{
@@ -126,9 +145,17 @@ footer li{
 
 footer h3{
 	color: #33F0D6;
-	text-align: left;
 	font-size: 1.5em;
 }
+
+hr{
+	border-color: #33F0D6;
+}
+
+	footer a{
+		color: #fff;
+		text-decoration: none;
+	}
 
 @media only screen and (min-width: 20em ){
 
@@ -147,10 +174,6 @@ footer h3{
 	.masthead img{
 	width: 60px;
 }
-
-	footer img{
-		width: 23%;
-	}
 
 
 @media only screen and (min-width: 40em ){
