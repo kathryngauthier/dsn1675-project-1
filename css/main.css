@@ -19,7 +19,6 @@ body{
 }
 
 nav{
-	color: #fff;
 	padding: .5em;
 	margin: 0;
 }
@@ -31,7 +30,6 @@ nav{
 
 .masthead{
 	padding: 0;
-	background-color: #DBDBDB;
 }
 
 .masthead a{
@@ -103,21 +101,33 @@ h3{
 	width: 100%
 }
 
+hr{
+	width: 85%;
+}
+
+.buttons img{
+	width: 4em;
+	display: inline-block;
+}
+
 footer{
 	background-color: #393939;
 	color: #fff;
-	padding:1em;
+	padding: 1em;
+
+}
+
+footer li{
+	background-color: black;
+	list-style: none;
+	display: inline-block;
+	width: 50%;
 }
 
 footer h3{
 	color: #33F0D6;
 	text-align: left;
 	font-size: 1.5em;
-}
-
-footer img{
-	width: 10%;
-	max-width: 3em;
 }
 
 @media only screen and (min-width: 20em ){
@@ -142,19 +152,12 @@ footer img{
 		width: 23%;
 	}
 
-	hr{
-		width: 50%;
-}
 
 @media only screen and (min-width: 40em ){
 
 	html{
 		font-size: 110%;
 		line-height: 2em;
-	}
-
-	.masthead img{
-		width: 44px;
 	}
 
 	.profile img{
@@ -187,5 +190,6 @@ footer img{
 		margin: .5em;
 		display: inline-block;
 }
+
 
 }
