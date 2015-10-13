@@ -25,7 +25,7 @@ nav{
 
 	.masthead img{
 		max-width: 60px;
-		margin:10px;
+		padding-top: 2%;
 	}
 
 .masthead{
@@ -59,11 +59,12 @@ p{
 }
 
 .profile{
-	padding: 1em;
+	margin: 16px;
 }
 
 .profile img{
 	width: 100%;
+	max-width: 294px;
 }
 
 .profile a{
@@ -173,7 +174,7 @@ hr{
 	}
 
 	.masthead img{
-	width: 60px;
+
 }
 
 
@@ -185,7 +186,6 @@ hr{
 	}
 
 	.profile img{
-		width: 50%;
 		display: inline-block;
 		vertical-align: bottom;
 	}
@@ -193,7 +193,7 @@ hr{
 	 .profile-text{
  		display: inline-block;
  		vertical-align: bottom;
- 		margin: 1em;
+ 		padding-left: 2px;
  		padding-bottom: 20px
  }
 
@@ -221,5 +221,13 @@ hr{
 		display: inline-block;
 }
 
+}
+
+@media only screen and (min-width: 56em ){
+
+	p{
+		padding-left: 65px;
+		padding-right: 65px;
+	}
 
 }
