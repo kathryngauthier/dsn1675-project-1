@@ -1,3 +1,9 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
 html {
   box-sizing: border-box;
   font: normal 100% ;
@@ -76,6 +82,10 @@ p{
 	box-shadow: 1px 1px 5px #888;
 }
 
+.profile a:hover{
+	background-color: #DBDBDB;
+}
+
 h3{
 	font-size: 25px;
 	text-align: center;
@@ -107,11 +117,14 @@ h3{
 
 .recent-work a{
 	padding: 0.4em 1em 0.5em;
-	position: absolute;
+	display: inherit;
 	top: 15px;
 	background-color: #33F0D6;
 	color: #fff;
 	text-decoration: none;
+	text-align: center;
+	box-shadow: 1px 1px 5px #888;
+	border-radius: 4px;
 }
 
 .recent-work a:hover{
