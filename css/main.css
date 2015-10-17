@@ -113,19 +113,6 @@ p{
 .buttons img:hover{
 }
 
-footer{
-	background-color: #393939;
-	color: #fff;
-	padding: 1em;
-	text-align: center;
-
-
-}
-
-footer p{
-	line-height: 30%;
-}
-
 .contact{
 	background-color: #848484;
 	margin: 0;
@@ -134,7 +121,7 @@ footer p{
 
 .contact h3{
 	color: #33F0D6;
-	font-size: 1.5em;
+
 	padding: 25px;
 	margin: 0;
 }
@@ -142,6 +129,17 @@ footer p{
 .contact p{
 	margin: 0;
 	color: #fff;
+}
+
+footer{
+	background-color: #393939;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+}
+
+footer p{
+	line-height: 30%;
 }
 
 	footer a{
@@ -154,9 +152,15 @@ footer p{
 	}
 
 @media only screen and (min-width: 15em ){
+/* 240px */
 	h2{
 		font-size: 35px;
 		line-height: 1em;
+	}
+
+	.contact img{
+		width: 60px;
+		margin: 5px;
 	}
 }
 
@@ -189,7 +193,7 @@ footer p{
 		vertical-align: bottom;
 	}
 
-	 .profile-text{
+	.profile-text{
  		display: inline-block;
  		vertical-align: bottom;
  		padding-left: 2px;
@@ -197,8 +201,9 @@ footer p{
  }
 
  .about-me{
- 	padding-left: 40px;
- 	padding-right: 40px;
+ 		padding-left: 40px;
+ 		padding-right: 40px;
+ 		height: 500px;
  }
 
  h3{
@@ -208,25 +213,27 @@ footer p{
 	.about-me{
 		width: 50%;
 		float: left;
-		padding: 1em;
 
 	}
 
 	.contact{
 		width: 50%;
-		float: left;
 		display: inline-block;
+		height: 500px;
 	}
 
 	.contact img{
 		width: 35%;
 		padding: 1em;
 		display: inline-block;
+		margin: 0;
 	}
 
 	.row{
 		display: inline-block;
 		background-color: #848484;
+		margin-bottom: 0;
+
 	}
 
 }
