@@ -60,6 +60,13 @@ h2{
 	line-height: 15px;
 }
 
+h3{
+	font-size: 25px;
+	text-align: center;
+	color: #000;
+	font-weight: 300;
+}
+
 p{
 	line-height: 1.8em;
 }
@@ -86,12 +93,6 @@ p{
 	background-color: #DBDBDB;
 }
 
-h3{
-	font-size: 25px;
-	text-align: center;
-	color: #000;
-	font-weight: 300;
-}
 
 .about-me{
 	background-color: #DBDBDB;
@@ -99,45 +100,14 @@ h3{
 	position: relative;
 }
 
-.recent-work{
-	background-color: #F7F7F7;
-	padding:0;
-}
-
-.recent-work h3{
-	padding: 1em;
-	margin: 0;
-}
-
-.recent-work img{
-	width: 100%;
-	position: relative;
-  width: 100%;
-}
-
-.recent-work a{
-	padding: 0.4em 1em 0.5em;
-	display: inherit;
-	top: 15px;
-	background-color: #33F0D6;
-	color: #fff;
-	text-decoration: none;
-	text-align: center;
-	box-shadow: 1px 1px 5px #888;
-	border-radius: 4px;
-}
-
-.recent-work a:hover{
-	background-color: #DBDBDB;
-}
-
-hr{
-	width: 85%;
-}
-
 .buttons img{
-	width: 4em;
+	width: 46px;
 	display: inline-block;
+	box-shadow: 3px 1px 5px #888
+}
+
+.buttons img:hover{
+	color: white;
 }
 
 footer{
@@ -151,25 +121,31 @@ footer p{
 	line-height: 30%;
 }
 
-footer li{
-	background-color: black;
-	list-style: none;
-	display: inline-block;
-	width: 50%;
+.contact{
+	background-color: #848484;
+	margin: 0;
+	padding-left: 16px;
 }
 
-footer h3{
+.contact h3{
 	color: #33F0D6;
 	font-size: 1.5em;
+	padding: 25px;
+	margin: 0;
 }
 
-hr{
-	border-color: #33F0D6;
+.contact p{
+	margin: 0;
+	color: #fff;
 }
 
 	footer a{
 		color: #fff;
 		text-decoration: none;
+	}
+
+	.rights{
+		font-size: 80%;
 	}
 
 @media only screen and (min-width: 15em ){
