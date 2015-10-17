@@ -72,12 +72,13 @@ p{
 }
 
 .profile{
-	margin: 16px;
+ margin: 1.5em;
 }
 
 .profile img{
 	width: 100%;
 	max-width: 294px;
+	margin: 20px;
 }
 
 .profile a{
@@ -204,17 +205,13 @@ footer p{
  		padding-left: 40px;
  		padding-right: 40px;
  		height: 500px;
+ 		width: 50%;
+		float: left;
  }
 
  h3{
  	font-size: 30px;
  }
-
-	.about-me{
-		width: 50%;
-		float: left;
-
-	}
 
 	.contact{
 		width: 50%;
@@ -223,8 +220,6 @@ footer p{
 	}
 
 	.contact img{
-		width: 35%;
-		padding: 1em;
 		display: inline-block;
 		margin: 0;
 	}
@@ -247,11 +242,10 @@ footer p{
 
 	h1{
 		font-size: 45px;
-		line-height: 15px;
+		line-height: 1px;
 	}
 
 	.profile{
-		margin-top: 10em;
     margin: auto;
     width: 60%;
 	}
@@ -260,11 +254,13 @@ footer p{
 		width: 50%;
 		float: left;
 		padding: 1em;
+		height: 400px;
 	}
 
 	.contact{
 		width: 50%;
 		float: left;
+		height: 400px;
 	}
 
 	p{
@@ -274,5 +270,4 @@ footer p{
 }
 
 @media only screen and (min-width: 156.25em ){
-
 }
