@@ -22,6 +22,7 @@ html {
 
 body{
 	margin: 0;
+	padding: 0;
 }
 
 nav{
@@ -78,7 +79,6 @@ p{
 .profile img{
 	width: 100%;
 	max-width: 294px;
-	margin: 20px;
 }
 
 .profile a{
@@ -154,8 +154,10 @@ footer p{
 
 @media only screen and (min-width: 15em ){
 /* 240px */
+
+
 	h2{
-		font-size: 35px;
+		font-size: 30px;
 		line-height: 1em;
 	}
 
@@ -228,7 +230,7 @@ footer p{
 		display: inline-block;
 		background-color: #848484;
 		margin-bottom: 0;
-
+		margin-top: 1em;
 	}
 
 }
@@ -248,6 +250,10 @@ footer p{
 	.profile{
     margin: auto;
     width: 60%;
+	}
+
+	.profile-text{
+		margin-left: 1.5em;
 	}
 
 	.about-me{
@@ -271,3 +277,14 @@ footer p{
 
 @media only screen and (min-width: 156.25em ){
 }
+
+@media print {
+
+	.nav{
+		display: none;
+	}
+
+	main a::after {
+		content: " (" attr(href) ")";
+		color: #666;
+	}
