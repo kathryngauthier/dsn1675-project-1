@@ -100,14 +100,17 @@ p{
 	position: relative;
 }
 
+.contact{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
 .buttons img{
 	width: 46px;
 	display: inline-block;
-	box-shadow: 3px 1px 5px #888
 }
 
 .buttons img:hover{
-	color: white;
 }
 
 footer{
@@ -115,6 +118,8 @@ footer{
 	color: #fff;
 	padding: 1em;
 	text-align: center;
+
+
 }
 
 footer p{
@@ -124,7 +129,7 @@ footer p{
 .contact{
 	background-color: #848484;
 	margin: 0;
-	padding-left: 16px;
+	padding: 16px;
 }
 
 .contact h3{
@@ -155,7 +160,8 @@ footer p{
 	}
 }
 
-@media only screen and (min-width: 20em ){
+@media only screen and (min-width: 20em){
+/* 320px */
 
 	html{
 		line-height: 1.25em;
@@ -169,12 +175,9 @@ footer p{
 		width: 100%;
 	}
 
-	.masthead img{
-
-}
-
 
 @media only screen and (min-width: 40em ){
+/* 640px */
 
 	html{
 		font-size: 110%;
@@ -203,23 +206,33 @@ footer p{
  }
 
 	.about-me{
-		display: inline-block;
-		margin-top: 20px;
+		width: 50%;
+		float: left;
+		padding: 1em;
+
 	}
 
-	.recent-work{
-		text-align: center;
+	.contact{
+		width: 50%;
+		float: left;
+		display: inline-block;
 	}
 
-	.recent-work figure{
-		width: 45%;
-		margin: .5em;
+	.contact img{
+		width: 35%;
+		padding: 1em;
 		display: inline-block;
-}
+	}
+
+	.row{
+		display: inline-block;
+		background-color: #848484;
+	}
 
 }
 
 @media only screen and (min-width: 56.25em ){
+
 
 	body{
 		padding-top: 1.5em;
@@ -236,13 +249,20 @@ footer p{
     width: 60%;
 	}
 
+	.about-me{
+		width: 50%;
+		float: left;
+		padding: 1em;
+	}
+
+	.contact{
+		width: 50%;
+		float: left;
+	}
+
 	p{
 		padding-left: 65px;
 		padding-right: 65px;
-	}
-
-	.recent-work{
-		padding: 65px;
 	}
 }
 
