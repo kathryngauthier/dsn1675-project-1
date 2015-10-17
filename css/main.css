@@ -1,8 +1,9 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
+@-moz-viewport: {width: device-width;scale: 1;}
+@-ms-viewport: {width: device-width;scale: 1;}
+@-viewport: {width: device-width;scale: 1;}
+@-o-viewport: {width: device-width;scale: 1;}
+@-webkit-viewport: {width: device-width;scale: 1;}
+@viewport: {width: device-width;scale: 1;}
 
 html {
   box-sizing: border-box;
@@ -280,11 +281,11 @@ footer p{
 
 @media print {
 
-	.nav{
+	.about-me{
 		display: none;
 	}
 
-	main a::after {
-		content: " (" attr(href) ")";
-		color: #666;
+	.profile a{
+		display: none;
+	}
 	}
